@@ -38,6 +38,11 @@ public class Punto {
         y = valor;
         activo = true;
     }
+    public void prueba(int valor){
+        activo = false;
+        y = valor*2;
+        x = valor-1;
+    }
 
     @Override
     public String toString() {
